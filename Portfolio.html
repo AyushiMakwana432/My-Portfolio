@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style 1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <!-- Header Design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+        <div class='bx bx-moon' id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section -->
+     <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Ayushi D Makwana</h1>
+            <p>I have completed B.E in 2024 and i would like to work on live projects,<br>I Have knowledge about HTML, CSS, JavaScript & JQuery and Also known<br>about Bootstrap, PHP and MySql.</p>
+
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+            <a href="Media/Ayushi Makwana's Resume.pdf" class="btn">Download Resume</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="img/img-4.png" alt="">
+        </div>
+     </section>
+
+     <!-- about section -->
+      <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/img-3.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading"> About <span> Me </span></h2><br>
+            <h3><span> Name : </span> Ayushi D Makwana </h3><br>
+            <h3><span> DOB : </span>  4-March-2003 </h3><br>
+            <h3><span> Qualification : </span> B.E (Information Technology) </h3><br>
+            <h3><span> Language : </span> English,Hindi,Gujrati</h3><br> 
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+      </section>
+
+    <!-- Skills Section -->
+    <section class="Skills" id="Skills">
+     <div class="container">
+        <h1>Skills</h1>
+        <div class="skill">
+            <h3>HTML</h3>
+            <h4>99%</h4>
+            <span class="skill-bar"></span>
+            <span class="fill-bar html"></span>
+        </div>
+        <div class="skill">
+            <h3>CSS</h3>
+            <h4>85%</h4>
+            <span class="skill-bar"></span>
+            <span class="fill-bar css"></span>
+        </div>
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <h4>75%</h4>
+            <span class="skill-bar"></span>
+            <span class="fill-bar javascript"></span>
+        </div>
+        <div class="skill">
+            <h3>PHP</h3>
+            <h4>75%</h4>
+            <span class="skill-bar"></span>
+            <span class="fill-bar php"></span>
+        </div>
+        <div class="skill">
+            <h3>My Sql</h3>
+            <h4>70%</h4>
+            <span class="skill-bar"></span>
+            <span class="fill-bar react"></span>
+        </div>
+    </div>
+</section>
+
+<!-- Education section -->
+<section class="education" id="education">
+    <h1 class="heading"> My <span> Education</span> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span> 2017-2018 </span>
+            <h3>SSC (GSEB)</h3>
+            <p>I have completed my 10<sup>th</sup> Std in Gadhka  Higher Secondary School With (86.72 PR).</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span> 2018-2021 </span>
+            <h3>Diploma</h3>
+            <p>I have completed my Diploma in Information Technology Field At Government Polytechnic Rajkot With 8.18 CGPA (GTU).</p>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span> 2021-2024 </span>
+            <h3>Bachelor Of Engineering</h3>
+            <p>I have completed my Bachelor Of Engineering in Information Technology Field At Dr Subhash Technical Campus With 8.16 CGPA (GTU).</p>
+        </div>
+   
+    </div>
+</section>
+
+<!-- Contact Me -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span> Me! </span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+
+<!-- Footer Design -->
+ <footer class="footer">
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+    
+ </footer>
+
+<!--custom js-->
+    <script src="script.js"></script>
+</body>
+</html>
