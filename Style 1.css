@@ -19,10 +19,11 @@
     --shadow-color:rgba(0, 0, 0, .2);
 }
 
-#darkMode-icon {
+.dark-mode {
     --bg-color: #0b061f;
     --text-color:#fdfdfd;
     --shadow-color:rgba(0, 0, 0, .7);
+    --white-color:#0b061f;
 }
 
 html{
@@ -588,7 +589,7 @@ span{
 
 
 /* Break Points */
-@media (max-width: 1200px) {
+@media (max-width: 2560px) {
     html {
         font-size: 55%;
     }
@@ -607,7 +608,7 @@ span{
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
     .header {
         padding: 2rem 3%;
     }
@@ -617,7 +618,7 @@ span{
     }
 
     .home .profession-container .profession-box {
-        right: -22rem;
+        right: -25rem;
     }
 
     .home .profession-container .overlay {
@@ -625,7 +626,7 @@ span{
     } 
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
     .navbar a:nth-child(1),
     .navbar a:nth-child(2) {
         color: var(--main-color);
@@ -666,7 +667,7 @@ span{
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     #menu-icon {
         display: block;
     }
@@ -727,6 +728,11 @@ span{
      .home-content h1 {
         font-size: 5rem;
      }
+
+     .home-content .p{
+        padding-left: 32px;
+        font-size: 1.6rem;
+     }
      .home-content .social-media a {
         margin: 2.5rem .75rem 3rem;
      }
@@ -739,7 +745,7 @@ span{
 
      .home .profession-container .profession-box{
         position: fixed;
-        top: 60%;
+        top: 65%;
         left: 0;
         border-radius: 0;
         width: 100%;
@@ -780,21 +786,21 @@ span{
      .home .profession-container .overlay {
         position: fixed;
         /* top: 70rem; */
-        top: 80rem;
+        top: 85rem;
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
         /* border-width: 23.9rem; */
-        border-width: 15.9rem;
+        border-width: 20.9rem;
     }
 
     .about {
-
         flex-direction: column-reverse;
         text-align: center;
     }
 
     .about-content h2 {
+        margin-top: 64px;
         text-align: center;
     }
 
@@ -805,7 +811,7 @@ span{
     }
 
     .Skills{
-        margin-bottom: -15rem;
+        margin-bottom: -10rem;
         justify-content: center;
     }
     .education{
@@ -813,7 +819,7 @@ span{
         justify-content: center;
     }
 }
-    @media (max-width : 450px){
+    @media (max-width : 767px){
     html {
         font-size: 50%;
     }
@@ -847,7 +853,7 @@ span{
     }
 }
 
-@media (max-width: 365px) {
+@media (max-width: 320px) {
     .about-img img {
         width: 90vw;
     }

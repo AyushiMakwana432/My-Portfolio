@@ -33,10 +33,10 @@
             <div class="p">I have completed B.E in 2024 and i would like to work on live projects,I Have knowledge about HTML, CSS, JavaScript & JQuery and Also known about Bootstrap, PHP and MySql.</div>
 
             <div class="social-media">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/makwana.ayushi.92?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ayushi-makwana-90299b253"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/AyushiMakwana432"><i class="fa-brands fa-github"></i></a>
             </div>
 
             <a href="Media/Ayushi Makwana's Resume.pdf" class="btn">Download Resume</a>
@@ -167,9 +167,27 @@
             <input type="text" placeholder="Email Subject">
         </div>
         <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-        <input type="submit" value="Send Message" class="btn">
+        <input type="submit" value="Send Message" class="btn" onclick="gotowhatsapp()">
     </form>
 </section>
+
+<script>
+    function gotowhatsapp() {
+
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var sub = document.getElementById("sub").value;
+        var msg = document.getElementById("msg").value;
+
+        var url = "https://wa.me/+918980628004?text=" 
+        + "Name: " + name + "%0a"
+        + "Email: " + email + "%0a"
+        + "Subject: " + sub + "%0a"
+        + "Message: " + msg;
+
+        window.open(url).focus();
+    }
+</script>
 
 
 <!-- Footer Design -->
