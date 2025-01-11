@@ -637,7 +637,7 @@ span{
         opacity: .7;
      }
      .home .home-content{
-        max-width: 50rem ;
+        max-width: 50rem;
     }
 
     .home .profession-container .profession-box {
@@ -729,12 +729,14 @@ span{
         font-size: 5rem;
      }
 
-     .home-content .p{
+     .home-content .p {
         padding-left: 32px;
-        font-size: 1.6rem;
+        /* font-size: 1.6rem; */
      }
      .home-content .social-media a {
-        margin: 2.5rem .75rem 3rem;
+        /* margin: 2.5rem .75rem 3rem;  */
+        margin: 1.6rem .65rem 1rem;
+
      }
 
      .home .profession-container{
