@@ -166,29 +166,12 @@
             <input type="number" placeholder="Mobile Number">
             <input type="text" placeholder="Email Subject">
         </div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <textarea name="" id="msg" cols="30" rows="10" placeholder="Your Message"></textarea>
+        
         <input type="submit" value="Send Message" class="btn" onclick="gotowhatsapp()">
+    
     </form>
 </section>
-
-<script>
-    function gotowhatsapp() {
-
-        var name = document.getElementById("name").value;
-        var email = document.getElementById("email").value;
-        var sub = document.getElementById("sub").value;
-        var msg = document.getElementById("msg").value;
-
-        var url = "https://wa.me/+918980628004?text=" 
-        + "Name: " + name + "%0a"
-        + "Email: " + email + "%0a"
-        + "Subject: " + sub + "%0a"
-        + "Message: " + msg;
-
-        window.open(url).focus();
-    }
-</script>
-
 
 <!-- Footer Design -->
  <footer class="footer">
