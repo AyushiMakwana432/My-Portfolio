@@ -54,7 +54,7 @@ function gotowhasapp(){
 
     alert(name);
 
-    var url = "https://whatsapp.com/dl/+919712027090"
+    var url = "https://wa.me/+919712027090?text="
     + "Name: " + name + "%0a"
     + "Email: " + email + "%0a"
     + "Subject: " + sub + "%0a"
