@@ -47,12 +47,11 @@ darkModeIcon.onclick = () => {
 };
 
 function gotowhasapp(){
-    var name = document.getElementById("Full Name").value;
-    var email = document.getElementById("Email Address").value;
-    var sub = document.getElementById("Mobile Number").value;
-    var msg = document.getElementById("Email Subject").value;
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var sub = document.getElementById("num").value;
+    var msg = document.getElementById("sub").value;
 
-    alert(name);
 
     var url = "https://wa.me/+919712027090?text="
     + "Name: " + name + "%0a"

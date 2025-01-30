@@ -157,18 +157,18 @@
 <section class="contact" id="contact">
     <h2 class="heading">Contact <span> Me! </span></h2>
 
-    <form action="https://whatsapp.com/dl/+919712027090">
+    <form>
         <div class="input-box">
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email Address">
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="email" id="email" placeholder="Email Address">
         </div>
         <div class="input-box">
-            <input type="number" placeholder="Mobile Number">
-            <input type="text" placeholder="Email Subject">
+            <input type="number" id="num" placeholder="Mobile Number">
+            <input type="text" id="sub" placeholder="Email Subject">
         </div>
         <textarea name="" id="msg" cols="30" rows="10" placeholder="Your Message"></textarea>
         
-        <input type="submit" value="Send Message" class="btn" onclick="gotowhatsapp()">
+        <button type="submit" class="btn btn-primary" onclick="gotowhasapp()">Send Message</button>
     
     </form>
 </section>
